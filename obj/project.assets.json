@@ -962,11 +962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI\\PayFastAPI.csproj",
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI_D49\\PayFastAPI\\PayFastAPI.csproj",
       "projectName": "PayFastAPI",
-      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI\\PayFastAPI.csproj",
+      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI_D49\\PayFastAPI\\PayFastAPI.csproj",
       "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI\\obj\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\PayFastAPI_D49\\PayFastAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

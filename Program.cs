@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // CORS (allow your app + website domains)
+//test
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowKnownClients", policy =>
