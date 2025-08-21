@@ -1,14 +1,12 @@
-# FILE: Dockerfile
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# Copy csproj and restore early
-COPY ["PayFastAPI/PayFastAPI.csproj", "PayFastAPI/"]
-RUN dotnet restore "PayFastAPI/PayFastAPI.csproj"
+# Copy csproj and restore
+COPY ["PayFastAPI.csproj", "./"]
+RUN dotnet restore "PayFastAPI.csproj"
 
-# Copy all and build
+# Copy everything else
 COPY . .
-WORKDIR "/src/PayFastAPI"
 RUN dotnet publish "PayFastAPI.csproj" -c Release -o /app/publish
 
 # Runtime image
