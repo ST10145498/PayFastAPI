@@ -223,7 +223,25 @@ namespace PayFastAPI.Controllers
                 return BadRequest($"Error processing notification: {ex.Message}");
             }
         }
+// Payment successful
+[HttpGet("return")]
+public IActionResult Return()
+{
+    return Ok(new
+    {
+        Message = "Payment completed successfully."
+    });
+}
 
+// Payment cancelled
+[HttpGet("cancel")]
+public IActionResult Cancel()
+{
+    return Ok(new
+    {
+        Message = "Payment was cancelled by the user."
+    });
+}
         [HttpGet("status/{orderId}")]
         public IActionResult GetPaymentStatus(string orderId)
         {
