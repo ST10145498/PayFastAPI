@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayFastAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b286b76dc0d58780acade2058fac60e42d2b60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8eb91154c9f5d26fc2985020738fb2f0b159210")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayFastAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayFastAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
