@@ -147,10 +147,10 @@ namespace PayFastAPI.Services
             };
         }
 
-        // FIXED: Using your lecturer's signature method
+        
         private string CreateSignature(Dictionary<string, string> data)
         {
-            // PayFast requires EXACT field ordering - not alphabetical!
+            
             var orderedData = new List<KeyValuePair<string, string>>
             {
                 new("merchant_id", data.GetValueOrDefault("merchant_id", "")),
@@ -194,7 +194,7 @@ namespace PayFastAPI.Services
             return signature.ToString();
         }
 
-        // FIXED: Using your lecturer's URL encoding method
+       
         private static string UrlEncode(string value)
         {
             var convertPairs = new Dictionary<string, string>
